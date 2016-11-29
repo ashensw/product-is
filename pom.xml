@@ -1144,6 +1144,11 @@
                 <artifactId>org.wso2.carbon.tenant.mgt.stub</artifactId>
                 <version>${carbon.multitenancy.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.apache.directory.api</groupId>
+                <artifactId>api-all</artifactId>
+                <version>${org.apache.directory.api.version}</version>
+            </dependency>
 
             <!-- Outbound Authenticators -->
             <dependency>
@@ -1568,6 +1573,7 @@
         <commons.codec.version>1.8</commons.codec.version>
         <XmlSchema.version>1.4.7.wso2v3</XmlSchema.version>
         <wsdl4j.version>1.6.2.wso2v2</wsdl4j.version>
+        <org.apache.directory.api.version>1.0.0-RC2</org.apache.directory.api.version>
     </properties>
 
     <repositories>
